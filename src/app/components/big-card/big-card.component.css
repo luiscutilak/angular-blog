@@ -1,10 +1,9 @@
 .big-card__container{
-    border: solid white 2px;
     width: 400px;
     height: 450px;
     display: flex;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left:20px;
+    margin-right: 20px;
     flex-direction: column;
     align-items: flex-start;
 }
@@ -14,8 +13,17 @@
     margin-top: 15px;
 }
 
-.big-card__description > p{
-    font-size: 10px;
-    color: grey;
+.big-card__description{
     margin-top: 10px;
+
+}
+
+.big-card__description > p > a{
+    font-size: 15px;
+    color: grey;
+}
+
+.big-card__photo > img{
+    width:100%;
+    min-width: 400px;
 }
