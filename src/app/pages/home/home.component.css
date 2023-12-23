@@ -5,3 +5,20 @@
     flex-direction: row;
     justify-content: center;
 }
+
+header{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: linear-gradient(to left, red, white, purple);
+    padding: 1px;
+    -webkit-mask: linear-gradient(to right,red, green) content-box,
+                  linear-gradient(to right,red, green);
+    -webkit-mask-composite: xor;       
+    mask: linear-gradient(to right,red, green) content-box,
+          linear-gradient(to right, red, green);
+    mask-composite: xor; 
+    display: flex;
+    justify-content: center;
+}
