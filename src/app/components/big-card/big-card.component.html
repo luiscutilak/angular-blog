@@ -1,7 +1,7 @@
 <div class="big-card__container">
   <div class="big-card__photo">
     <img
-      src="https://i0.wp.com/heroisx.com/wp-content/uploads/2012/04/iron-man-2-wallpaper.jpg"
+      src="{{ photoCover }}"
       alt=""
       width="400px"
       srcset=""
@@ -11,15 +11,13 @@
   <a href=""> </a>
 
   <div class="big-card__title">
-    <h1><a href="#">The IRONMAN Vs OBADIAH STANE</a></h1>
+    <h1><a href="#">{{ cardTitle }}</a></h1>
   </div>
 
   <div class="big-card__description">
     <p>
       <a href="#">
-        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-        consectetur, adipisci velit..." "There is no one who loves pain itself,
-        who seeks after it and wants to have it, simply because it is pain...
+       {{ cardDescription }}
       </a>
     </p>
   </div>
